@@ -42,20 +42,8 @@ internal struct CalculatorBrain {
         }
         
     }
-    
-
 
     weak var numberFormatter: NumberFormatter?
-    
-    fileprivate var formattedAccumulator: String? {
-        if let number = accumulator {
-            return numberFormatter?.string(from: number as NSNumber) ?? String(number)
-        } else {
-            return nil
-        }
-    }
-    
-    
     
     fileprivate var accumulator: Double?
     
