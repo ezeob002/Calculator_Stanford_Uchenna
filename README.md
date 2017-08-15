@@ -1,1 +1,1 @@
-## Simple Calculator made from IOS. Thanks to Stanford IOS class.
+# Simple Calculator. Thanks to Stanford IOS class.
